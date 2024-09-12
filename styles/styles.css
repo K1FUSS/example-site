@@ -3,12 +3,16 @@ header{
     padding: none;
     box-sizing: border-box;
     font-size: 25px;
-    color:black;
+    color:rgb(255, 94, 0);
     font-weight: bold;
 }
 p{
-    color: black;
-    font-size: 30px;
+    margin: none;
+    padding: none;
+    margin-left: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
 }
 a{
     text-decoration: none;
@@ -17,31 +21,41 @@ a{
     text-decoration: none;
     font-size: 25px;
     font-weight: bold;
-    color:black;
+    color: rgb(0, 0, 0);
 }
 a:hover{
-    color: aqua;
+    color:rgba(255, 94, 0, 0.78);
 }
 .Call{
 
     color: white;
 }
 table, th, td {
-    border:1px solid black}
+    border:1px solid black;
+    margin-left: 10px;
+}
 
 footer{
     color: white;
     background-color: black;
     padding: 10px;
+    margin-top: 15px;
 }
 .Foodimg {
-    width: 800px;
-    height: 450px;
-    position: relative;
-    top: 50px;
-    left:50px
+    width: 650px;
+    height: 350px;
+    margin-left: 10px;
+    margin-top: 25px;
+
 }
 h2 {
-    color: red;
+    color:rgb(255, 94, 0);
+    margin: 10px;
+    padding: none;
+    box-sizing: border-box;
+    font-size: 25px;
+    font-weight: bold;
 }
-
+ul{
+    font-weight: bold;
+}
